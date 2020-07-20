@@ -1,0 +1,20 @@
+// global variable and mixins and functions import
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/global";
+
+// page feature import
+@import "./modules/large-hero";
+@import "./modules/btn";
+@import "./modules/wrapper";
+@import "./modules/page-section";
+@import "./modules/headline";
+@import "./modules/row";
+@import "./modules/generic-content-contaoner";
+body {
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}

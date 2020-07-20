@@ -1,0 +1,27 @@
+.row {
+  @include clearfix;
+  &--gutters {
+    margin-right: -65px;
+  }
+  &__b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+  &--gutters > div {
+    padding-right: 65px;
+  }
+
+  @include md {
+    &__b-margin-until-medium {
+      margin-bottom: 0;
+    }
+    &__medium-4 {
+      width: 33.33%;
+      float: left;
+    }
+
+    &__medium-8 {
+      width: 66.66%;
+      float: left;
+    }
+  }
+}
