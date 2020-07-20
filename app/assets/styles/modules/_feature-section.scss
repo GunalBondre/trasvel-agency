@@ -1,0 +1,22 @@
+.feature-section {
+  position: relative;
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  &__icon {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+  }
+  @include md {
+    padding-left: 94px;
+
+    &__icon {
+      position: absolute;
+      left: 0;
+    }
+  }
+}
